@@ -110,7 +110,7 @@ def render(density: float = 0.6, steps: int = 60):
         
         image_rgb[grid == 1] = [134, 239, 134]   # Trees -> Green
         image_rgb[grid == 2] = [186, 85, 211] #purple i think
-        image_rgb[grid == 0] = [520, 150, 350]    # Ash -> Dark Gray
+        image_rgb[grid == 0] = [80, 80, 80]    # Ash -> Dark Gray
 
         frames.append(Image.fromarray(image_rgb, 'RGB'))
 
